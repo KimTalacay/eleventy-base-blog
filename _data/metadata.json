@@ -1,21 +1,21 @@
 {
   "title": "Kim Talacay",
-  "url": "https://example.com/",
+  "url": "https://kimtalacay.com/",
   "language": "en",
   "description": "I am a JamStack developer.",
   "feed": {
     "subtitle": "I am a JamStack developer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://kimtalacay.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://kimtalacay.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
+    "name": "Kim Talacay",
+    "email": "kimtalacay@example.com",
     "url": "https://example.com/about-me/"
   }
 }
