@@ -15,6 +15,9 @@ eleventyNavigation:
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
+    <label>Attach CV: <input type="file" name="cv" /></label>
+  </p>
+  <p>
     <label>Your Role: <select name="role[]" multiple>
       <option value="leader">Leader</option>
       <option value="follower">Follower</option>
@@ -22,6 +25,9 @@ eleventyNavigation:
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+   <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree to the Terms & Coditions
   </p>
   <p>
     <button type="submit">Send</button>
